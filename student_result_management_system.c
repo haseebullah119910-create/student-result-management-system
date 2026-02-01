@@ -30,7 +30,7 @@ void addStudent() {
     printf("\nEnter Roll Number: ");
     scanf("%d", &rollNo[count]);
 
-    getchar();  // 🔥 clears leftover newline
+    getchar();  //  clears leftover newline
 
     printf("Enter Student Name: ");
     fgets(name[count], 30, stdin);
@@ -138,3 +138,4 @@ int main() {
 
     return 0;
 }
+
